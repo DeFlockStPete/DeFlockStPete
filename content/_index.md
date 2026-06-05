@@ -33,11 +33,11 @@ We don't have to accept mass surveillance on our streets
     subtitle="Flock cameras are Automated License Plate Reading (ALPR) Cameras which scan and record the license plate of every car that enters it's feeld of view. This data then feeds into a centralized database allowing law enforcement to track the location of any individual without our knowledge or consent."
   >}}
   {{< hextra/feature-card
-    title="Are there Flock Cameras in St Pete?"
+    title="When did Flock start showing up in St Pete?"
     subtitle="In 2024, the city approved a ~$730,000 contract with Flock for 50 cameras that have been installed across the city. The approval was voted on in the City Council consent agenda with no discussion or public input."
   >}}
   {{< hextra/feature-card
     title="Why Should I Care?"
-    subtitle="Flock cameras have been associated with a number of abuses of privacy. For example, Flock data has been used by police to stalk ex-partners, track a woman who crossed state lines to receive an abortion, and by ICE surveil communities."
+    subtitle="Flock cameras have been associated with a number of abuses of privacy. For example, Flock data has been used by police to stalk ex-partners, track a woman who crossed state lines to receive an abortion, and by ICE to surveil our communities."
   >}}
 {{< /hextra/feature-grid >}}
