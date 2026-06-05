@@ -3,21 +3,27 @@ title: DeFlock St Pete
 layout: hextra-home
 ---
 
+{{< hextra/hero-container
+  iframe="https://maps.deflock.org/?lat=27.7605&lng=-82.6747&zoom=12.05"
+>}}
+
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  Let's Get&nbsp;<br class="hx:sm:block hx:hidden" />Flock Out of St Pete
+  Let's Get Flock Out of St Pete
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx:mb-12">
 {{< hextra/hero-subtitle >}}
-We don't have to accept mass&nbsp;<br class="hx:sm:block hx:hidden" />surveillance on our streets
+We don't have to accept mass surveillance on our streets
 {{< /hextra/hero-subtitle >}}
 </div>
 
 <div class="hx:mb-6">
 {{< hextra/hero-button text="Learn More" link="about" >}}
 </div>
+
+{{< /hextra/hero-container >}}
 
 <div class="hx:mt-6"></div>
 
