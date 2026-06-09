@@ -1,3 +1,5 @@
+baseURL: "https://zschira.github.io/DeFlockStPete/"
+
 # Hugo configuration file
 title: DeFlock St Pete
 
@@ -24,9 +26,12 @@ menu:
     - name: Get Involved
       pageRef: /get_involved
       weight: 2
+    - name: Public Records
+      pageRef: /public_records
+      weight: 3
     - name: Contact ↗
       url: "mailto:DeFlockStPete@proton.me"
-      weight: 3
+      weight: 4
       params:
         icon: mail
 
