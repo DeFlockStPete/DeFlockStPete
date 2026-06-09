@@ -11,7 +11,7 @@ our contract with Flock and remove all cameras in the city.
 
 ## Flock's History in St Pete
 In 2022 the city quietly began a pilot program with Flock where 25
-cameras where placed around the city. Then, in 2024, the city council
+cameras were placed around the city. Then, in 2024, the city council
 approved a ~$730,000, 5 year contract to expand the program to 50 cameras.
 This contract was approved on the consent agenda without any city council
 discussion or public input.
