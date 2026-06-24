@@ -1,0 +1,45 @@
+<form class="newsletter" id="newsletter">
+  <input
+    type="email"
+    id="email"
+    placeholder="you@example.com"
+    required
+  >
+  <input
+    type="hidden"
+    name="list_uuids[]"
+    value="c510c222-ebf1-411e-a832-84545963d23f"
+  >
+  <button
+    type="submit"
+  >
+    Subscribe
+  </button>
+</form>
+
+<script>
+document.getElementById("newsletter").addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const email = document.getElementById("email").value;
+
+  const res = await fetch("https://stimulating-horse.pikapod.net/api/public/subscription", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      email: email,
+      list_uuids: ["c510c222-ebf1-411e-a832-84545963d23f"]
+    })
+  });
+
+  if (res.ok) {
+    alert("Subscribed!");
+  } else {
+    const err = await res.text();
+    console.error(err);
+    alert("Subscription failed");
+  }
+});
+</script>

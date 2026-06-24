@@ -31,3 +31,7 @@ cancels our contract with Flock and removes these cameras.
 Thank you,
 
 \[YOUR NAME\]
+
+### Join Our Email List to Keep up with the Campaign
+
+{{< newsletter >}}
