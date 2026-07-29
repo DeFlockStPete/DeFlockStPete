@@ -32,6 +32,6 @@ Thank you,
 
 \[YOUR NAME\]
 
-### Join Our Email List to Keep up with the Campaign
+## Join Our Email List to Keep up with the Campaign
 
 {{< newsletter >}}
