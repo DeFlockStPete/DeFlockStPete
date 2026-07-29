@@ -26,12 +26,15 @@ menu:
     - name: Get Involved
       pageRef: /get_involved
       weight: 2
+    - name: Updates
+      pageRef: /updates
+      weight: 3
     - name: Public Records
       pageRef: /public_records
-      weight: 3
+      weight: 4
     - name: Contact ↗
       url: "mailto:DeFlockStPete@proton.me"
-      weight: 4
+      weight: 5
       params:
         icon: mail
 
