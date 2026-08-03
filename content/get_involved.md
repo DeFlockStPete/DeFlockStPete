@@ -34,4 +34,4 @@ Thank you,
 
 ## Join Our Email List to Keep up with the Campaign
 
-{{< newsletter >}}
+{{< newsletter "Subscribe" "c510c222-ebf1-411e-a832-84545963d23f" >}}
