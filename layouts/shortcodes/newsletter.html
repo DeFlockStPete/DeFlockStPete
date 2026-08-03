@@ -1,3 +1,6 @@
+{{ $action := .Get 0 }}
+{{ $uuid := .Get 1 }}
+
 <form class="newsletter" id="newsletter">
   <input
     type="email"
@@ -5,15 +8,10 @@
     placeholder="you@example.com"
     required
   >
-  <input
-    type="hidden"
-    name="list_uuids[]"
-    value="c510c222-ebf1-411e-a832-84545963d23f"
-  >
   <button
     type="submit"
   >
-    Subscribe
+    {{ $action }}
   </button>
 </form>
 
@@ -30,16 +28,8 @@ document.getElementById("newsletter").addEventListener("submit", async (e) => {
     },
     body: JSON.stringify({
       email: email,
-      list_uuids: ["c510c222-ebf1-411e-a832-84545963d23f"]
+      list_uuids: ["{{ $uuid }}"]
     })
   });
-
-  if (res.ok) {
-    alert("Subscribed!");
-  } else {
-    const err = await res.text();
-    console.error(err);
-    alert("Subscription failed");
-  }
 });
 </script>
