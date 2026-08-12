@@ -8,28 +8,43 @@
     placeholder="you@example.com"
     required
   >
-  <button
+  <button id="submitButton"
     type="submit"
   >
     {{ $action }}
   </button>
+  <div id="signupMessage" aria-live="polite"></div>
 </form>
 
 <script>
 document.getElementById("newsletter").addEventListener("submit", async (e) => {
   e.preventDefault();
-
+  button = document.getElementById("submitButton")
   const email = document.getElementById("email").value;
+  button.disabled = true;
+  button.textContent = "Signing up...";
 
-  const res = await fetch("https://stimulating-horse.pikapod.net/api/public/subscription", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      email: email,
-      list_uuids: ["{{ $uuid }}"]
-    })
-  });
+  try {
+
+    const res = await fetch("https://stimulating-horse.pikapod.net/api/public/subscription", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        email: email,
+        list_uuids: ["{{ $uuid }}"]
+      })
+    });
+    if (!res.ok) {
+      throw new Error("Signup failed");
+    }
+
+    button.textContent = "Success!";
+  } catch (error) {
+    alert(error)
+    button.disabled = false;
+    button.textContent = "{{ $action }}";
+  }
 });
 </script>
