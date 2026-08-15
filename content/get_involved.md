@@ -2,6 +2,10 @@
 title: Get Involved
 ---
 
+## Send Us an Email
+If you would like to get more involved in our movement, send us an email at
+[DeFlockStPete@proton.me](mailto:DeFlockStPete@proton.me) and we'll get you connected!
+
 ## Contact City Council
 St Pete's City Council approved our contract with Flock, and they have the power 
 to end it. Find your City Council district [here](https://geohub-csp.opendata.arcgis.com/datasets/city-council-districts-1).
