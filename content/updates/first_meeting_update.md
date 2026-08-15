@@ -8,11 +8,11 @@ draft: false
 - [download the slides!](/downloads/flock_in_st_pete.pdf)
 
 ### TLDR
-- Great turnout!
+- We had well over 100 people show up to our first public meeting!
 - Please send us an email at [DeFlockStPete@proton.me](mailto:DeFlockStPete@proton.me) if you would
   like to volunteer with DeFlock St Pete or help plan future events!
 - We'll be looking to establish a chat to keep people connected
-- We'll learn from this event to avoid capacity issues in the future
+- We apologize to everyone who couldn't get in due to capacity issues! We'll learn from this event to avoid capacity issues in the future, and we've included a link to the slides for anyone who couldn’t attend
 
 ### Huge Turnout!
 Our first public meeting at the Obama Library had a better turnout than we could have possibly
@@ -24,8 +24,8 @@ slides using the link above, and if you have any questions that you weren't able
 us an email at [DeFlockStPete@proton.me](mailto:DeFlockStPete@proton.me)!
 
 ### Where we go from here
-It was amazing to see so much of the community come together to stand up against mass surveilance! Not
-only  was there great energy, but there were also so many thoughtful questions and ideas. Clearly
+It was amazing to see so much of the community come together to stand up against mass surveillance! Not
+only  was there great energy, but there were also so many thoughtful questions and ideas. Clearly,
 people have been thinking about this issue and looking for an outlet to express their feelings. We
 hope that we can provide that outlet and help to build upon this momentum. Key to doing that is
 getting the community connected and talking.
