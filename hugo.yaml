@@ -37,6 +37,11 @@ menu:
       weight: 5
       params:
         icon: mail
+    - name: RSS
+      url: /index.xml
+      params:
+        icon: rss
+      
 
 params:
   navbar:

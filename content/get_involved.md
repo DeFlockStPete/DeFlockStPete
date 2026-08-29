@@ -39,3 +39,7 @@ Thank you,
 ## Join Our Email List to Keep up with the Campaign
 
 {{< newsletter "Subscribe" "c510c222-ebf1-411e-a832-84545963d23f" >}}
+
+At DeFlock St Pete, we prioritize privacy and will never share your information with any third parties.
+That being said, we also understand if you don't want to give us your email, in which case you can subscribe
+to the RSS feed linked at the top.
